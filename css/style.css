@@ -1,0 +1,237 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Menu de navegacion*/
+
+/*Dandole estilos al slider del index*/
+.slide{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+}
+.slide ul{
+    display: flex;
+    padding: 0;
+    width: 100%;
+}
+.slide li{
+    list-style: none;
+    width: 100%;
+}
+.slide img{
+    width: 100%;
+    height: 628px;
+}
+/*Dandole estilos al main del index*/
+.box-target1-main{
+    margin-top: 20px;
+    background-color: #e9b8c0;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    padding: 50px 50px 50px 50px;
+    display: inline-block;
+    display: flex;
+}
+.box-target1-main-text{
+    width: 49%;
+    height: 49%;
+    text-align: justify;
+}
+.box-target1-main-img{
+    display: inline-block;
+    text-align: right;
+}
+.box-target1-main-img img{
+    width: 49%;
+    height: 49%;
+}
+.box-iframe-main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #e9b8c0;
+    width: 100%;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+}
+.box-iframe-main iframe{
+    width: 500px;
+    height: 350px;
+}
+/*Dandole estilos a la pagina de galeria*/
+.box-galeria{
+    margin-top: 20px;
+    background-color: #d9c9de;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    text-align: justify;
+}
+/*Fin de estilos en la pagina de galeria*/
+
+/*Aqui le doy estilos a la pagina de camara*/
+.box-camara{
+    margin-top: 20px;
+    background-color: #e9b8c0;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    padding: 50px 50px 50px 50px;
+    display: inline-block;
+    display: flex;
+    
+}
+.box-camara-text{
+    width: 49%;
+    height: 49%;
+    text-align: justify;
+}
+.box-camara-img{
+    display: inline-block;
+    text-align: right;
+}
+.box-camara-img img{
+    width: 49%;
+    height: 49%;
+}
+/*Fin de estilos a la pagina de camara*/
+
+/*Colocando estilos a la pagina de servicios*/
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;   
+}
+th, td{
+    padding: 10px;
+}
+table{
+    margin: 50px 100px 50px 100px;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #e9b8c0;
+}
+/*Fin de estilos en la pagina de servicios*/
+
+/*Estileando el main de la pagina de contactos*/
+.form-register{
+    width: 400px;
+    background-color: #e9b8c0;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form-register h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    background-color: #e9b8c0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form-register .button{
+    width: 100%;
+    background-color: bisque;
+    border: none;
+    padding: 15px;
+    color: white;
+    margin: 15px 0px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.box-iframe-maps{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #e9b8c0;
+    width: 100%;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+}
+.box-iframe-maps iframe{
+    width: 500px;
+    height: 350px;
+}
+/*Fin de estilos de la pagina de contactos*/
+
+/*Dandole estilos al footer*/
+.pie-de-pagina{
+    width: 100%;
+    background-color: #cedfc9;
+}
+.pie-de-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-de-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-de-pagina .grupo-1 .box figure img{
+    width: 200px;
+    height: 200px;
+}
+.pie-de-pagina .grupo-1 .box h2{
+    color: #f99aaa;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.pie-de-pagina .grupo-1 .box p{
+    color: #f99aaa;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.pie-de-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: #f99aaa;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-de-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-de-pagina .grupo-1 .red-social img{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 10px;
+}
+.pie-de-pagina .grupo-2{
+    background-color: beige;
+    text-align: center;
+    padding: 10px 15px;
+    color: #f99aaa;
+}
+.pie-de-pagina .grupo-2 small{
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
